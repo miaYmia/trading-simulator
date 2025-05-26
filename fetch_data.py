@@ -41,7 +41,7 @@ def fetch_daily_stock_data(symbol):
         "2. high": "High",
         "3. low": "Low",
         "4. close": "Close",
-        "6. volume": "Volume"
+        "5. volume": "Volume"
     })
 
     df.index = pd.to_datetime(df.index)
